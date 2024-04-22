@@ -34,9 +34,7 @@ int main()
 	else if (age >= 20) {
 		cout << "성인\n";
 	}
-	else {
-		
-	}
+	
 
 	if (age >= 200) {
 		cout << "나이가 너무 많습니다..!\n";
