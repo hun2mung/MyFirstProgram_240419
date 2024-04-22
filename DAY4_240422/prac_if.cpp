@@ -20,25 +20,26 @@ int main()
 
 	if (age >= 1 and age <= 7)
 	{
-		cout << "유아";
+		cout << "유아\n";
 	}
 	else if (age >= 8 and age <= 13) {
-		cout << "초등학생";
+		cout << "초등학생\n";
 	}
 	else if (age >= 14 and age <= 16) {
-		cout << "중학생";
+		cout << "중학생\n";
 	}
 	else if (age >= 17 and age <= 19) {
-		cout << "고등학생";
+		cout << "고등학생\n";
 	}
 	else if (age >= 20) {
-		cout << "성인";
-	}
-	else if (age > 200) {
-		cout << "나이가 너무 많습니다..!";
+		cout << "성인\n";
 	}
 	else {
 		
+	}
+
+	if (age >= 200) {
+		cout << "나이가 너무 많습니다..!\n";
 	}
 
 
