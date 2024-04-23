@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-	int a, b;
+	float a, b;
 	char oper;
 
 	cin >> a >> b >> oper;
@@ -24,7 +24,7 @@ int main() {
 		cout << a / b;
 		break;
 	case '%':
-		cout << a % b;
+		cout << int(a) % int(b);
 		break;
 	default:
 		break;
