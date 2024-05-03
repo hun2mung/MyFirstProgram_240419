@@ -28,4 +28,4 @@ gantt
     section 마무리
     버그 수정 및 안정화       :d1, after c2, 5d
     프로젝트 문서화          :d2, after c2, 5d
-```
+
